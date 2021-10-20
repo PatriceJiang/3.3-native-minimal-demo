@@ -1,0 +1,74 @@
+{
+  "__version__": "1.2.8",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "debug": true,
+    "sourceMaps": true,
+    "outputName": "mac",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "mac",
+    "name": "MinimalCube"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1634702484049": {
+        "id": "1634702484049",
+        "progress": 1,
+        "state": "success",
+        "message": "10-20-2021 12:01 Build success in 34639 ms!",
+        "options": {
+          "name": "MinimalCube",
+          "platform": "mac",
+          "buildPath": "project://build",
+          "debug": true,
+          "md5Cache": false,
+          "sourceMaps": true,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "3280b5ac-904d-4a16-9fe5-00cd1a73f328",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "3280b5ac-904d-4a16-9fe5-00cd1a73f328",
+              "inBundle": false
+            }
+          ],
+          "outputName": "mac",
+          "packages": {
+            "mac": {
+              "packageName": "com.cocos.project",
+              "renderBackEnd": {
+                "metal": true
+              },
+              "targetVersion": "10.14",
+              "supportM1": false
+            },
+            "native": {
+              "polyfills": {
+                "asyncFunctions": true
+              },
+              "encrypted": false,
+              "xxteaKey": "334/kqknJEmIBLaj",
+              "compressZip": false,
+              "makeAfterBuild": false,
+              "JobSystem": "taskFlow"
+            },
+            "cocos-service": {
+              "configID": "eea04f",
+              "services": []
+            }
+          }
+        },
+        "time": "10-20-2021 12:01",
+        "dirty": false
+      }
+    }
+  }
+}
